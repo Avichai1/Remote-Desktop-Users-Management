@@ -1,9 +1,9 @@
 # Remote Desktop Users Management
-Options: Monitoring all users of your Terminal Servers. There are options to remote session and logoff sessions with connected and disconnected stats
+Options: Monitoring all users of your RD Servers. There are options to remote session and logoff sessions with connected and disconnected stats
 
 The software's comes to fix the lack of Remote Desktop Services Manger that is no longer existed in Windows 2012 and newer
 Remote Desktop Users Management's features are:
-Monitoring disconnected and connected users of your Terminal Servers and providing their connection details like Username, Server, Session, ID, State, Idle Time, Logon Time 
+Monitoring disconnected and connected users of your RD Servers and providing their connection details like Username, Server, Session, ID, State, Idle Time, Logon Time 
 There are options to remote session and logoff sessions.
 Stats of connected and disconnected users (how much users are connected and how much users are disconnected)
 An option to search a user 
@@ -15,7 +15,7 @@ If the feature "Remote Control" is not working, please change your GPO:
 
 
 
-1) Open Group Policy Editor (Gpedit.msc) on the server that is running Terminal Services or in you DC Server open Group Policy Management (gpmc.msc)
+1) Open Group Policy Editor (Gpedit.msc) on the server that is running RD Servers or in you DC Server open Group Policy Management (gpmc.msc)
 2)Under Computer Configuration, expand Administrative Templates, expand Windows Components, expand Remote Desktop Services,
 expand Remote Session Host, and then click on connections.
 3)Right-click Sets rules for remote control of Remote Desktop user sessions, and then click Edit.
