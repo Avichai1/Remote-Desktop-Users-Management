@@ -1,6 +1,15 @@
 # Terminal-Severs-Remote-Desktop-Users-Managemnent
 Options: Monitoring all users of your Terminal Servers. There are options to remote session and logoff sessions with connected and disconnected stats
 
+The software's comes to fix the lack of Remote Desktop Services Manger that is no longer existed in Windows 2012 and newer
+Terminal-Severs-Remote-Desktop-Users-Management's features are:
+Monitoring disconnected and connected users of your Terminal Servers and providing their connection details like Username, Server, Session, ID, State, Idle Time, Logon Time 
+There are options to remote session and logoff sessions.
+Stats of connected and disconnected users (how much users are connected and how much users are disconnected)
+An option to search a user 
+An option to find duplicate users (same user connects to different servers)
+An option to view connected and disconnected users of specific server
+A table of your servers and their status (up or down)
 
 If the feature "Remote Control" is not working, please change your GPO:
 
