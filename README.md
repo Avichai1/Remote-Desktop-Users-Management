@@ -1,8 +1,8 @@
-# Terminal-Severs-Remote-Desktop-Users-Managemnent
+# Remote Desktop Users Management
 Options: Monitoring all users of your Terminal Servers. There are options to remote session and logoff sessions with connected and disconnected stats
 
 The software's comes to fix the lack of Remote Desktop Services Manger that is no longer existed in Windows 2012 and newer
-Terminal-Severs-Remote-Desktop-Users-Management's features are:
+Remote Desktop Users Management's features are:
 Monitoring disconnected and connected users of your Terminal Servers and providing their connection details like Username, Server, Session, ID, State, Idle Time, Logon Time 
 There are options to remote session and logoff sessions.
 Stats of connected and disconnected users (how much users are connected and how much users are disconnected)
