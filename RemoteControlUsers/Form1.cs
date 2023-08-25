@@ -1,4 +1,4 @@
-﻿using System;
+using System;
 using System.Collections.Generic;
 using System.Collections.ObjectModel;
 using System.Management;
@@ -24,25 +24,7 @@ namespace RemoteControlUsers
     public partial class Form1 : Form
     {
         //מערך של שרתים
-        List<string> servers = new List<string>(new string[] { "192.168.1.37",
-                                                               "192.168.1.38",
-                                                               "192.168.1.45",
-                                                               "192.168.1.47",
-                                                               "192.168.1.48",
-                                                               "192.168.1.49",
-                                                               "192.168.1.50",
-                                                               "192.168.1.51",
-                                                               "192.168.1.52",
-                                                               "192.168.1.53",
-                                                               "192.168.1.54",
-                                                               "192.168.1.55",
-                                                               "192.168.1.56",
-                                                               "192.168.1.57",
-                                                               "192.168.1.58",
-                                                               "192.168.1.59",
-                                                               "192.168.1.60",
-                                                               "192.168.1.61",
-                                                               "192.168.1.62"});
+        List<string> servers = new List<string>(new string[] {});
 
         public Form1()
         {
@@ -56,7 +38,7 @@ namespace RemoteControlUsers
         {
             /*
             //משתמש במידע שיש בAD על פי כתובת דומיין
-            using (var context = new PrincipalContext(ContextType.Domain, "maof-group.co.il"))
+            using (var context = new PrincipalContext(ContextType.Domain, ""))
             {
                 using (var searcher = new PrincipalSearcher(new UserPrincipal(context)))
                 {
